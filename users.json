@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "admin_user",
+    "email": "admin@example.com",
+    "password": "password123",
+    "favourites": []
+  },
+  {
+    "id": 2,
+    "name": "student_1",
+    "email": "student@example.com",
+    "password": "pass1234",
+    "favourites": []
+  },
+  {
+    "id": 3,
+    "name": "guest_user",
+    "email": "guest@example.com",
+    "password": "guest",
+    "favourites": []
+  }
+]
