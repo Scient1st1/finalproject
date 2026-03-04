@@ -43,7 +43,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 
   const login = async (name: string, password: string) => {
     const foundUser = users.find(
-      (u) => u.name === name && u.password === password
+      (u) => u.name === name && u.password === password,
     );
     if (foundUser) {
       const { password: _, ...userToStore } = foundUser;

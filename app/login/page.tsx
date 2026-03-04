@@ -28,7 +28,7 @@ export default function LoginPage() {
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name" className="text-sm font-medium text-gray-700">
-              Name
+              Name <span className="text-red-600">(test-user:</span> guest_user)
             </label>
             <input
               id="name"
@@ -46,7 +46,8 @@ export default function LoginPage() {
               htmlFor="password"
               className="text-sm font-medium text-gray-700"
             >
-              Password
+              Password <span className="text-red-600">(test-password:</span>{" "}
+              guest)
             </label>
             <input
               id="password"
